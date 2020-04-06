@@ -1,0 +1,60 @@
+html,
+body,
+header,
+#intro {
+	height: 100%;
+}
+
+#intro{
+	background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg");
+	 		height: 500px;
+		  background-position: center;
+		  background-repeat: no-repeat;
+	      position: relative;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+.navbar{
+	background-color: transparent;
+}
+/*.ng-10{
+	background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg");
+	 		height: 500px;
+		  background-position: center;
+		  background-repeat: no-repeat;
+	      position: relative;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+}*/
+.grey-text{
+	color:grey;
+}
+
+.white-text{
+	color:white;
+}
+
+
+.orange-text{
+	color:orange;
+}
+
+
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
